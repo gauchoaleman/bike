@@ -1,6 +1,7 @@
 const image = document.querySelector(".image-continer");
 
 document.addEventListener("keydown", (e) => {
+  //Which key is pressed?
   const key = e.keyCode;
   const cs = getComputedStyle(image);
   //How many pixels to move @ each keypress
